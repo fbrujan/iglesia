@@ -1,0 +1,967 @@
+[Thu Aug 19 01:03:11 2021] [error] [client 172.20.0.1] PHP Notice:  Undefined index: requiere_registro in /var/www/iglesia/Controllers/servicios.php on line 65, referer: http://172.20.0.2/servicios/editar/36
+[Thu Aug 19 13:25:50 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 13:25:50 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 13:25:57 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 13:25:57 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 13:38:16 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:38:16 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:38:16 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:39:05 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:39:05 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:39:05 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:53:06 2021] [error] [client 192.168.1.131] PHP Notice:  Trying to get property of non-object in /var/www/iglesia/Scripts/busca_miembro.php on line 19, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 13:59:31 2021] [error] [client 172.20.0.1] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
+[Thu Aug 19 13:59:31 2021] [error] [client 172.20.0.1] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
+[Thu Aug 19 14:06:13 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 14:06:13 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 14:06:13 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 14:07:36 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/ver.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:07:36 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function cargosActualesMiembro() on a non-object in /var/www/iglesia/Views/asistencia/ver.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:07:42 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:07:42 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:53:25 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:53:25 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:53:55 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:53:55 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Thu Aug 19 14:58:34 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 14:58:34 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 164, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:01:51 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_rango_ministerial in /var/www/iglesia/Controllers/registros.php on line 245, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:22:15 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_rango_ministerial in /var/www/iglesia/Controllers/registros.php on line 245, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:28:11 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_sexo in /var/www/iglesia/Controllers/registros.php on line 226, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:30:32 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_rango_ministerial in /var/www/iglesia/Controllers/registros.php on line 245, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:48:00 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 15:48:00 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 164, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 16:05:51 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_rango_ministerial in /var/www/iglesia/Controllers/registros.php on line 245, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 16:13:26 2021] [error] [client 192.168.1.180] PHP Notice:  Undefined index: id_rango_ministerial in /var/www/iglesia/Controllers/registros.php on line 245, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 16:42:50 2021] [error] [client 192.168.1.134] PHP Notice:  Undefined index: id_tipo_documento in /var/www/iglesia/Controllers/registros.php on line 229, referer: http://192.168.1.124:8090/registros/agregar
+[Thu Aug 19 16:43:05 2021] [error] [client 192.168.1.134] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Thu Aug 19 16:43:05 2021] [error] [client 192.168.1.134] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Thu Aug 19 18:23:01 2021] [error] [client 172.20.0.1] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
+[Thu Aug 19 18:23:01 2021] [error] [client 172.20.0.1] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
+[Fri Aug 20 12:38:59 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: requiere_registro in /var/www/iglesia/Views/servicios/agregar.php on line 81, referer: http://192.168.1.124:8090/servicios
+[Fri Aug 20 12:38:59 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: requiere_registro in /var/www/iglesia/Views/servicios/agregar.php on line 82, referer: http://192.168.1.124:8090/servicios
+[Fri Aug 20 13:13:06 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 13:13:06 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 13:13:06 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 14:18:49 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 14:18:49 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 14:18:49 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Fri Aug 20 14:20:12 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_persona in /var/www/iglesia/Controllers/asistencia.php on line 68, referer: http://192.168.1.124:8090/asistencia/agregar
+[Fri Aug 20 14:26:19 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined variable: lideres in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Fri Aug 20 14:26:19 2021] [error] [client 192.168.1.131] PHP Fatal error:  Call to a member function listarMiembros() on a non-object in /var/www/iglesia/Views/asistencia/editar.php on line 1, referer: http://192.168.1.124:8090/asistencia
+[Fri Aug 20 16:01:47 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: requiere_registro in /var/www/iglesia/Views/servicios/agregar.php on line 81, referer: http://192.168.1.124:8090/servicios
+[Fri Aug 20 16:01:47 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: requiere_registro in /var/www/iglesia/Views/servicios/agregar.php on line 82, referer: http://192.168.1.124:8090/servicios
+[Fri Aug 20 16:26:56 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Fri Aug 20 16:26:56 2021] [error] [client 192.168.1.196] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Fri Aug 20 16:27:32 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Fri Aug 20 16:27:32 2021] [error] [client 192.168.1.196] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://192.168.1.124:8090/registros
+[Sat Aug 21 13:05:25 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 159, referer: http://192.168.1.124:8090/registros/agregar
+[Sat Aug 21 13:05:25 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 240, referer: http://192.168.1.124:8090/registros/agregar
+[Sat Aug 21 13:05:25 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_iglesia in /var/www/iglesia/Controllers/registros.php on line 253, referer: http://192.168.1.124:8090/registros/agregar
+[Sat Aug 21 13:20:48 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_sociedad in /var/www/iglesia/Controllers/registros.php on line 228, referer: http://192.168.1.124:8090/registros/agregar
+[Sat Aug 21 13:20:48 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_sociedad in /var/www/iglesia/Controllers/registros.php on line 241, referer: http://192.168.1.124:8090/registros/agregar
+[Sat Aug 21 13:33:05 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_persona in /var/www/iglesia/Controllers/asistencia.php on line 68, referer: http://192.168.1.124:8090/asistencia/agregar
+[Sat Aug 21 13:45:20 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_persona in /var/www/iglesia/Controllers/asistencia.php on line 68, referer: http://192.168.1.124:8090/asistencia/agregar
+[Sat Aug 21 14:26:19 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/791
+[Sat Aug 21 14:26:50 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/863
+[Sat Aug 21 14:28:06 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/884
+[Sat Aug 21 14:31:29 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/884
+[Sat Aug 21 14:37:08 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: id_persona in /var/www/iglesia/Controllers/asistencia.php on line 68, referer: http://192.168.1.124:8090/asistencia/agregar
+[Sat Aug 21 15:01:42 2021] [error] [client 192.168.1.196] PHP Notice:  Undefined index: id_persona in /var/www/iglesia/Controllers/asistencia.php on line 68, referer: http://192.168.1.124:8090/asistencia/agregar
+[Sat Aug 21 15:15:46 2021] [error] [client 192.168.1.124] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/868
+[Sat Aug 21 15:30:36 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/847
+[Sat Aug 21 15:33:08 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/823
+[Sat Aug 21 15:34:08 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/899
+[Sat Aug 21 15:34:25 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/900
+[Sat Aug 21 15:38:09 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/278
+[Sat Aug 21 15:41:04 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/800
+[Sat Aug 21 15:44:26 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/791
+[Sat Aug 21 15:47:00 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/791
+[Sat Aug 21 15:47:23 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/791
+[Sat Aug 21 15:50:57 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/874
+[Sat Aug 21 15:59:49 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/885
+[Sat Aug 21 16:22:05 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/838
+[Sat Aug 21 16:24:08 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/798
+[Sat Aug 21 16:29:38 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/53
+[Sat Aug 21 16:39:33 2021] [error] [client 192.168.1.131] PHP Notice:  Undefined index: nro_documento_identidad in /var/www/iglesia/Controllers/personas.php on line 83, referer: http://192.168.1.124:8090/personas/editar/819
+[Sun Aug 22 19:42:19 2021] [error] [client 172.20.0.1] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/iglesia/Views/finanzas/agregar.php on line 96
+[Thu Sep 02 20:12:50 2021] [error] [client 172.20.0.1] attempt to invoke directory as script: /var/www/cgi-bin/
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] Invalid URI in request GET . HTTP/1.0
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] request failed: error reading the headers
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../../../../../../../../../../../../etc/shadow HTTP/1.1
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] attempt to invoke directory as script: /var/www/cgi-bin/, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/administrator.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/authLogin.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-hist.sh, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/banner.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/book.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiinfo.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgitest.py, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgi_wrapper, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/contact.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/count.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/defaultwebpage.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/download.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/entropysearch.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/env.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/environment.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezmlm-browse, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/formmail.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormMail-clone.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/guestbook.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/helpdesk.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/index.php' not found or unable to stat, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/info.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/info.sh, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/loadpage.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/login.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/login.php' not found or unable to stat, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/login.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pathtest.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php4, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php5, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php-cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php.fcgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/printenv, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/restore_config.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ruby.rb, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/server.php' not found or unable to stat, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/status, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sysinfo.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/test_cgi.php' not found or unable to stat, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/test.cgi.php' not found or unable to stat, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test_cgi.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi.pl, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test.py, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test.sh, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tmUnblock.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/uname.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viewcvs.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/welcome, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/whois.cgi, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] attempt to invoke directory as script: /var/www/cgi-bin/, referer: () { _; } >_[$($())] { echo 93e4r0-CVE-2014-6278: true; echo;echo; }
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cart32.exe
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/classified.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/download.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/flexform.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/flexform
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/lwgate.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/LWGate.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/lwgate
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/LWGate
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/perlshop.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/handler.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/finger
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/finger.pl
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/formmail.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/formmail
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/get32.exe
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gm-authors.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/guestbook
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/horde
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/photo
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wrap.cgi
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wrap
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/formmail.pl
+[Thu Sep 02 20:12:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/horde
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/visadmin.exe
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/html2chtml.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/html2wml.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pollit
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/echo.bat
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezshopper
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/guestbook.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/guestbook.pl
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ss
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gH.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gm-cplog.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gm.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/AT-admin.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/auth_data
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/blog
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cart.pl
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cart.pl
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htsearch
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt-static
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/banner.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bannereditor.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/book.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/architext_query.pl
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bizdb1-search.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/blog
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/blog
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/atk
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/atk
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/moin.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/astrocam.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/badmin.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/boozt
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezadmin.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezboard.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezman.cgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/foxweb.dll
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/foxweb.exe
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mgrqcgi
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wconsole.dll
+[Thu Sep 02 20:12:56 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webplus.exe
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/uploader.exe
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fpsrvadm.exe
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.cobalt
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mailit.pl
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.access
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/data
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/empower
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mrtg.cgi
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/store
+[Thu Sep 02 20:13:17 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/addbanner.cgi
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/af.cgi
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/alienform.cgi
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shtml.dll
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/aglimpse.cgi
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/aglimpse
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/architext_query.cgi
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiemail-1.4
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cmd.exe
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cmd1.exe
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/hello.bat
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/post32.exe|dir c:\\\\
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/archie
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calendar.pl
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calendar
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/date
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fortune
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/redirect
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/uptime
+[Thu Sep 02 20:13:18 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wais.pl
+[Thu Sep 02 20:13:20 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/com5..........................................................................................................................................................................................................................box
+[Thu Sep 02 20:13:20 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/com5.java
+[Thu Sep 02 20:13:20 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/com5.pl
+[Thu Sep 02 20:13:20 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/testing_whatever
+[Thu Sep 02 20:13:21 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mail
+[Thu Sep 02 20:13:21 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-error.pl
+[Thu Sep 02 20:13:21 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/post-query
+[Thu Sep 02 20:13:21 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/query
+[Thu Sep 02 20:13:21 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi.tcl
+[Thu Sep 02 20:13:22 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-env
+[Thu Sep 02 20:13:22 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgi_process
+[Thu Sep 02 20:13:22 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.js0x70
+[Thu Sep 02 20:13:22 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgitest.exe
+[Thu Sep 02 20:13:22 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/hpnst.exe
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Pbcgi.exe
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/testcgi.exe
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/snorkerz.bat
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/snorkerz.cmd
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webfind.exe
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ans.pl
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ans
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Album
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/SQLServ
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test.bat
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tst.bat|dir ..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\,
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/input.bat
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/input2.bat
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../../../../../../../../../boot.ini HTTP/1.1
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../../../../winnt/repair/sam._ HTTP/1.1
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] Invalid URI in request GET ////./../.../boot.ini HTTP/1.1
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] Invalid URI in request GET /DomainFiles/*//../../../../../../../../../../etc/passwd HTTP/1.1
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/14all.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/14all-1.1.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/anacondaclip.pl
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/auktion.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bigconf.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-hostsvc.sh
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-hist
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-hist.sh
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/common.php' not found or unable to stat
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/commerce.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiforum.pl
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cal_make.pl
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/db4web_c
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/db4web_c
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/directorypro.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/emumail
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/emumail.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/emu
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/faxsurvey
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/faqmanager.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezshopper
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/generate.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/generate.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/generate.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htmlscript
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htgrep
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/hsx.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sewse
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sbcgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mrtg.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mrtg.cfg
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/main.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/main.cgi
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mail
+[Thu Sep 02 20:13:23 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mail
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/loadpage.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/loadpage.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htsearch
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shop.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sendtemp.pl
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.pl
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/quickstore.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/publisher
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pals-cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/opendir.php' not found or unable to stat
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-emumail.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/newsdesk.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/netauth.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/multihtml.pl
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webdist.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/way-board
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/way-board.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viewsource
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ttawebtop.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/traffic.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/technote
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/technote
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/talkback.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/story
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/story.pl
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/store
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/store.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] Invalid URI in request GET /cgi-bin/ssi//%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sojourn.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/simple
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shopper.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sawmill5
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/zml.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/YaBB.pl
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/whois_raw.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/whois
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/whois.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webspirs.cgi
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webplus
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webmail
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../../../../../../../../../../etc/passwd HTTP/1.1
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] Invalid URI in request GET /%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/windows/win.ini HTTP/1.1
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] Invalid URI in request GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/classifieds
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/alibaba.pl|dir ..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\,
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/horde
+[Thu Sep 02 20:13:24 2021] [error] [client 172.20.0.1] File does not exist: /var/www/iglesia/666\n\n<script>alert('Vulnerable');<
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/redir.exe
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/YaBB
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/vq
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viewcvs.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viewcvs.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/urlcount.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi.exe
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/start.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.pl
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/search.php' not found or unable to stat
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pbcgi.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pbcgi.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/myguestbook.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/login.pl
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htsearch.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormMail.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fom
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fom.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/erba
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/diagnose.cgi
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dansguardian.pl
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgicso
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/betsie
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/auction
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/athcgi.exe
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.cobalt
+[Thu Sep 02 20:13:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.cobalt
+[Thu Sep 02 20:13:26 2021] [error] [client 172.20.0.1] File does not exist: /var/www/error/500error.jsp
+[Thu Sep 02 20:13:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test2.pl
+[Thu Sep 02 20:13:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.cobalt
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] PHP Notice:  Undefined offset: 0 in /var/www/iglesia/Config/Request.php on line 18
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] File does not exist: /var/www/iglesia/\n\n<script>alert(\\"Vulnerable\\")<
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/title.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/compatible.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/probecontrol.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/probecontrol.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/retrieve_password.pl
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwadmin.pl
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bigconf.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webmap.cgi
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwwais
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt-static
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt-static
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:27 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dbman
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dcshop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/DCShop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dcshop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/DCShop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dumpenv.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htsearch
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mkilog.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mkplog.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/orders
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/processit.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rpm_query
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sawmill
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shop
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ws_ftp.ini
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/WS_FTP.ini
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MachineInfo
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/view-source
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webplus
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ibill.pm
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/scoadminreg.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/SGB_DIR
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/icat
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/MsmMask.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-showlogs.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/query
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/update.dpgs
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/view-source
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormHandler.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormHandler.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/lastlines.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calendar_admin.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calendar
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/campas
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgicso
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiwrap
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/common
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Count.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csChatRBox.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csGuestBook.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csLiveSupport.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csNewsPro.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/echo.bat
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ImageFolio
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/info2www
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/infosrch.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/listrec.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mailnews.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mmstdod.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pagelog.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/perl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/perl.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/perl.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/perl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/plusmail
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/scripts
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/scripts
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/smartsearch.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/smartsearch
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/spin_client.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sscd_suncourier.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viralator.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/virgil.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/vpasswd.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webgais
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/websendmail
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/whois.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwwais
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/common
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/handler
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webdist.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stat.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cachemgr.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ppdscgi.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sws
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webif.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.cobalt
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webdriver
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/c32web.exe
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgi-lib.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/log
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mini_logger.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt-static
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mt
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/nimages.php' not found or unable to stat
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/robadmin.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/netpad.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/troops.cgi
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/unlg1.1
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/unlg1.2
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rwwwshell.pl
+[Thu Sep 02 20:13:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/photo
+[Thu Sep 02 20:13:49 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/blog
+[Thu Sep 02 20:13:49 2021] [error] [client 172.20.0.1] Invalid URI in request GET /file/../../../../../../../../etc/ HTTP/1.1
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] attempt to invoke directory as script: /var/www/cgi-bin/
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ccbill-local.pl
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ccbill-local.cgi
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mastergate
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Backup
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sendpage.pl
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbook
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bslist.cgi
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bsguest.cgi
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nbmember.cgi
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/where.pl
+[Thu Sep 02 20:13:50 2021] [error] [client 172.20.0.1] attempt to invoke directory as script: /var/www/cgi-bin/
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/phf
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/phf
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/phf.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/phf
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/upload.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-publish.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-test-cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pfdisplay.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pfdispaly.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pfdispaly.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pfdisplay.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webcart
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../webserver.ini HTTP/1.1
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/photo
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/include
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] Invalid URI in request GET ../../../../../../../../../../etc/* HTTP/1.1
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] Invalid URI in request GET ../../../../../../../../../../etc/passw* HTTP/1.1
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/musicqueue.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/windmail
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/windmail.exe
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/WINDMAIL.EXE
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dose.pl
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../config.dat HTTP/1.1
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbadmin.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbadmin.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbadmin.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbadmin.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gbpass.pl
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/addalink.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiecho
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgiemail
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/countedit
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/domainredirect.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/entropybanner.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/entropysearch.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormMail-clone.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/helpdesk.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mchat.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/randhtml.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/realhelpdesk.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/realsignup.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/scgiwrap
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/signup.cgi
+[Thu Sep 02 20:13:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/GW5
+[Thu Sep 02 20:13:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dbmlparser.exe
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.fhp
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/add_ftp.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/admin.php' not found or unable to stat
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.php3
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/adminhot.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/adminwww.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/AnyBoard.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/AnyForm
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/AnyForm2
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ash
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ax-admin.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ax.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/axs.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bash
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bnbform
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bnbform.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cart.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgimail.exe
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/classifieds
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/classifieds.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/clickcount.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/code.php' not found or unable to stat
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/code.php3
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/count.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cstat.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/c_download.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dasp
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/day5datacopier.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dfire.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dig.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/displayTC.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/edit.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/enter.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/environ.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/environ.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ex-logger.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/excite
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/filemail
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/filemail.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ftp.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ftpsh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/getdoc.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/glimpse
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/hitview.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/jailshell
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/jj
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ksh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/log-reader.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/log
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/login.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/login.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/logit.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/logs.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/logs
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/logs
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/logs
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/lookwho.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/maillist.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/maillist.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/man.sh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/meta.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/minimal.exe
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nlog-smb.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nlog-smb.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/noshell
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-publish
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ntitar.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pass
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/passwd
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/passwd.txt
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/password
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/post_query
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pu3.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ratlog.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/responder.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rguest.exe
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rksh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rsh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/search.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/session
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/show.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stat
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats-bin-p
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats.prf
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/statsconfig
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/stats_old
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/statview.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/survey
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/survey.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tablebuild.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tcsh
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/textcounter.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tidfinder.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tigvote.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/tpgnrock
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ultraboard.cgi
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ultraboard.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/viewlogs.pl
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/visitor.exe
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/w3-msql
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/w3-sql
+[Thu Sep 02 20:13:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webais
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webbbs.cgi
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webbbs.exe
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webutil.pl
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webutils.pl
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webwho.pl
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wguest.exe
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/www-sql
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwboard.cgi.cgi
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwboard.pl
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwstats.pl
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwthreads
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/wwwthreads
+[Thu Sep 02 20:14:00 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/zsh
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/adduser.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/amadmin.pl
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/anyboard.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/AT-generate.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/auctiondeluxe
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/awl
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-ack.sh
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-histlog.sh
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-rep.sh
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bb-replog.sh
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bbs_forum.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/build.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/bulk
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cached_feed.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calender_admin.pl
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cartmanager.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cbmc
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgforum.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/change-your-password.pl
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/clickresponder.pl
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/commandit.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/counter-ord
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/counterbanner
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/counterbanner-ord
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/counterfiglet-ord
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/counterfiglet
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/CSMailto.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/CSMailto
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csNews.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csPassword.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csPassword
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cutecast
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/day5datanotifier.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/db2www
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/db_manager.cgi
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/DCFORMS98.CGI
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dnewsweb
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/donothing
+[Thu Sep 02 20:14:24 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezshopper2
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ezshopper3
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/if
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ikonboard
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/imageFolio.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/imagefolio
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/journal.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/magiccard.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/majordomo.pl
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mojo
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ncommerce3
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ncommerce3
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/non-existent.pl
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-exploitscanget.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/nph-maillist.pl
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/parse-file
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php-cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/pollssi.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/postcards.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/profile.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/quikstore.cfg
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/register.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/replicator
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rightfax
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rmp_query
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/robpoll.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/scripts
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/simplestguest.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/simplestmail.cgi
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/statusconfig.pl
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sws
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/texis
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Upload.pl
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/utm
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/utm
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/_vti_bin
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/_vti_pvt
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cfgwiz.exe
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Cgitest.exe
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/mailform.exe
+[Thu Sep 02 20:14:25 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ms_proxy_auth_query
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/post16.exe
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/cgi-bin/.htaccess
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/cgi-bin/.htaccess.old
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/cgi-bin/.htaccess.save
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/cgi-bin/.htaccess~
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/cgi-bin/.htpasswd
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.passwd
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.wwwacl
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.www_acl
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/iglesia/.htpasswd
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] client denied by server configuration: /var/www/iglesia/.htaccess
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ls
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] Invalid URI in request GET ////../../data/config/microsrv.cfg HTTP/1.1
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] Invalid URI in request GET ////////../../../../../../etc/passwd HTTP/1.1
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi.bat
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/admin.pl
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cfgwiz.exe
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/CGImail.exe
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/contents.htm
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fpadmin.htm
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fpremadm.exe
+[Thu Sep 02 20:14:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/fpsrvadm.exe
+[Thu Sep 02 20:14:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cgi-test.exe
+[Thu Sep 02 20:14:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/printenv
+[Thu Sep 02 20:14:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/printenv
+[Thu Sep 02 20:14:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi
+[Thu Sep 02 20:14:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/test-cgi
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/imagemap
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/imagemap.exe
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htimage.exe
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htimage.exe
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/htimage.exe
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/bbcode_ref.php' not found or unable to stat
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/GW5
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/GW5
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/GWWEB.EXE
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/vote.cgi
+[Thu Sep 02 20:14:29 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/quizme.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sendform.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek2.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek2.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek2.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FileSeek2.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/dcforum.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/gettransbitmap
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/guestbook.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/main_menu.pl
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rtm.log
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/VsSetCookie.exe
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/powerup
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/r.cgi
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/Webnews.exe
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webnews.pl
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/texis.exe
+[Thu Sep 02 20:14:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/texis
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/apexec.pl
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/sensepost.exe
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/..\xc0\xaf..
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/environ.pl
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/testcgi.exe
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/testcgi.exe
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/environ.pl
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/bb_smilies.php' not found or unable to stat
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ustorekeeper.pl
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvsqueryform.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvsquery.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvsquery.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvslog.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvslog.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/cvsblame.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/showcheckins.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/a1disp3.cgi
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/a1stats
+[Thu Sep 02 20:14:31 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/a1stats
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/..%5c..%5c..%5cwinnt
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/namazu.cgi
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/.nsconfig
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shop.pl
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/view_item
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shopplus.cgi
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/shopplus.cgi
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/eshop.pl
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ion-p.exe
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/ion-p
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/hpnst.exe
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.pl
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rwcgi60
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/rwcgi60
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.pl
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/index.pl
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/classifieds
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/calendar
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] Invalid URI in request GET /cgi-bin/../../../../../../../../../../WINNT/system32/ipconfig.exe HTTP/1.1
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] Invalid URI in request GET /cgi-bin/NUL/../../../../../../../../../WINNT/system32/ipconfig.exe HTTP/1.1
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] Invalid URI in request GET /cgi-bin/PRN/../../../../../../../../../WINNT/system32/ipconfig.exe HTTP/1.1
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/store
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/csSearch.cgi
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] File does not exist: /var/www/error/\\..\\..\\..\\..\\windows\\win.ini
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] File does not exist: /var/www/error/\\..\\..\\..\\..\\winnt\\win.ini
+[Thu Sep 02 20:14:52 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/printenv.tmp
+[Thu Sep 02 20:14:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/showuser.cgi
+[Thu Sep 02 20:14:53 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/man2html
+[Thu Sep 02 20:14:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/webcgi
+[Thu Sep 02 20:14:55 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/FormMail.pl
+[Thu Sep 02 20:16:26 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/php.ini
+[Thu Sep 02 20:16:28 2021] [error] [client 172.20.0.1] Invalid URI in request GET /sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml HTTP/1.1
+[Thu Sep 02 20:16:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Sep 02 20:16:28 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/awredir.pl
+[Thu Sep 02 20:16:29 2021] [error] [client 172.20.0.1] Invalid URI in request GET /../../windows/dvr2.ini HTTP/1.1
+[Thu Sep 02 20:16:29 2021] [error] [client 172.20.0.1] Invalid URI in request GET /htdocs/../../../../../../../../../../../etc/passwd HTTP/1.1
+[Thu Sep 02 20:16:29 2021] [error] [client 172.20.0.1] Invalid URI in request GET /help/../../../../../../../../../../../../../../../../etc/shadow HTTP/1.1
+[Thu Sep 02 20:16:30 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/status_cgi
+[Thu Sep 02 20:16:31 2021] [error] [client 172.20.0.1] script '/var/www/cgi-bin/c99.php' not found or unable to stat
+[Thu Sep 02 20:16:36 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/info.cgi
+[Thu Sep 02 20:16:57 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:58 2021] [error] [client 172.20.0.1] Invalid Content-Length
+[Thu Sep 02 20:16:59 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/lansaweb
+[Thu Sep 02 20:17:01 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/common
+[Thu Sep 02 20:17:01 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/filemanager
+[Thu Sep 02 20:17:01 2021] [error] [client 172.20.0.1] script not found or unable to stat: /var/www/cgi-bin/config.exp
+[Sat Sep 04 16:51:15 2021] [error] [client 172.20.0.1] PHP Notice:  Undefined variable: miembros in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
+[Sat Sep 04 16:51:15 2021] [error] [client 172.20.0.1] PHP Fatal error:  Call to a member function listarSociedades() on a non-object in /var/www/iglesia/Views/registros/editar.php on line 1, referer: http://172.20.0.2/registros
