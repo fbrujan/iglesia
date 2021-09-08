@@ -1,0 +1,20 @@
+version: '3'
+services:
+  iglesia:
+    build: '.'
+    image: iglesia/refugio_5to
+    container_name: refugio_5to
+    # restart: never
+    ports:
+      - "8090:80"
+      - "33061:3306"
+    tty: true
+    volumes:
+      - ./web/:/var/www/iglesia
+      - ./database/:/var/lib/mysql
+networks:
+  default:
+    external:
+      name: docker_network
+volumes:
+    data:
