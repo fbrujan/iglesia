@@ -230,7 +230,7 @@
 				      <select name="id_comite_temporero" id="id_comite_temporero">
 				      	<option value="0">Seleccione un Comite ..</option>
 				       <?php while($row = mysqli_fetch_array($comites)){ ?>
-				       <option value="<?php echo $row['id_comite_temporero']; ?>" <?php if (isset($_POST['id_comite_temporero']) && $row['id_comite_temporero']==$_POST['id_comite_temporero']) { echo "selected";} ;?>  ><?php echo $row['comite_temporero']; ?></option>
+				       <option value="<?php if (isset($_POST['id_comite_temporero'])){echo $row['id_comite_temporero']; }?>" <?php if (isset($_POST['id_comite_temporero']) && $row['id_comite_temporero']==$_POST['id_comite_temporero']) { echo "selected";} ;?>  ><?php echo $row['comite_temporero']; ?></option>
 				      	<?php } ?>
 				      </select>
 				     </div>
@@ -239,7 +239,7 @@
 				      <select name="id_cargo" id="id_cargo">
 				       <option value="0">Seleccione un Cargo ..</option>
 				       <?php while($row = mysqli_fetch_array($cargos)){ ?>
-				       <option value="<?php echo $row['id_cargo']; ?>"  <?php if (isset($_POST['id_cargo']) && $row['id_cargo']==$_POST['id_cargo']) { echo "selected";} ;?> ><?php echo $row['cargo']; ?></option>
+				       <option value="<?php if (isset($_POST['id_cargo'])){echo $row['id_cargo'];} ?>"  <?php if (isset($_POST['id_cargo']) && $row['id_cargo']==$_POST['id_cargo']) { echo "selected";} ;?> ><?php echo $row['cargo']; ?></option>
 				      	<?php } ?>
 				      </select>
 				    </div>
@@ -252,7 +252,7 @@
 				    </div>
 				    
 				    <div class="form-group">
-				    	<input type="hidden" name="id_persona" id="id_persona" value="<?php if(isset($_POST['id_persona'])){echo $_POST['id_persona'];} ?>">
+				    	<inpu				    t type="hidden" name="id_persona" id="id_persona" value="<?php if(isset($_POST['id_persona'])){echo $_POST['id_persona'];} ?>">
 				    	<input type="hidden" name="id_miembro" id="id_miembro" value="">
 				    	<input type="hidden" name="es_miembro_iglesia" id="es_miembro_iglesia" value="">
 				    	<input type="hidden" name="es_visita" value="0" id="es_visita">

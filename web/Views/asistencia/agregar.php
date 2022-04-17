@@ -63,11 +63,11 @@
 			
 				    <div class="form-group">
 				     	<label for="id_tanda" class="control-label" required id="id_tanda">Tanda:</label><br />
-				     	<input type="radio" name="id_tanda" value="1" >Matutina
-		              	<input type="radio" name="id_tanda" value="2" >Vespertina
-		              	<input type="radio" name="id_tanda" value="3" checked>Nocturna
-		              	<input type="radio" name="id_tanda" value="4" >Sabatina
-		              	<input type="radio" name="id_tanda" value="5" >Dominical
+				     	<input type="radio" name="id_tanda" value="1" <?php if (isset($_POST['id_tanda'])) { if ($_POST['id_tanda'] =='1') {echo " checked";} } ?> >Matutina
+		              	<input type="radio" name="id_tanda" value="2" <?php if (isset($_POST['id_tanda'])) { if ($_POST['id_tanda'] =='2') {echo " checked";} } ?> >Vespertina
+		              	<input type="radio" name="id_tanda" value="3" <?php if (isset($_POST['id_tanda'])) { if ($_POST['id_tanda'] =='3') {echo " checked";} } ?> >Nocturna
+		              	<input type="radio" name="id_tanda" value="4" <?php if (isset($_POST['id_tanda'])) { if ($_POST['id_tanda'] =='4') {echo " checked";} } ?> >Sabatina
+		              	<input type="radio" name="id_tanda" value="5" <?php if (isset($_POST['id_tanda'])) { if ($_POST['id_tanda'] =='5') {echo " checked";} } ?> >Dominical
 				    </div>
 
 				     <!--

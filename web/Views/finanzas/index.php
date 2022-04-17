@@ -41,9 +41,13 @@
 	</div>
 </div>
 <!-- 
+	
 	17 de agosto
 	1-10179505501 reclamacion banreservas elaine sosa 
 	--15600 7 dias laborasbles 
 	8095283511 Cherry Suriel.
-	asistenciafinanciera
+	asistenciafinanciera Dorka Conoce el caso
+	Selenia extension 342 asistencia financiera
+	selenia debe llamarme, ella es el enlace entre la tesoreria y el itla
+
 -->

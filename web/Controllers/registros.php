@@ -157,7 +157,7 @@ error_reporting(E_ALL);
 								elseif ($_POST['id_distrito']=="0") {echo "Debe Elegir un Distrito o la opcion 'SIN ESPECIFICAR";}
 								elseif ($_POST['id_circuito']=="0") {echo "Debe Elegir un Circuito o la opcion 'SIN ESPECIFICAR"; }
 								elseif ($_POST['id_iglesia']=="0") {echo "Debe Elegir una iglesia... o la opcion 'SIN ESPECIFICAR'";}					
-								elseif ($_POST['id_persona']!="") {
+								elseif (isset($_POST['id_persona']) &&  $_POST['id_persona']!="") {
 											$this->registro->set("id_servicio", $_POST['id_servicio']);
 											$this->registro->set("id_distrito", $_POST['id_distrito']);
 											$this->registro->set("id_circuito", $_POST['id_circuito']);
@@ -275,6 +275,7 @@ error_reporting(E_ALL);
 														$datos=$this->asistencias->add();
 												
 														unset($_POST['nombre']);
+														unset($_POST['usuario']);
 														unset($_POST['es_delegado']);
 														unset($_POST['es_pastor']);
 														unset($_POST['es_exonerado']);
